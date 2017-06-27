@@ -25,4 +25,3 @@ for (var i=0; i<contacte.length; i++) {
 }
 
 $("#contacts-list tbody").html(tableContent);
-
