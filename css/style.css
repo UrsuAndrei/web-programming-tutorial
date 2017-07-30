@@ -214,3 +214,14 @@ footer {
 #contacts-list th{
     font-weight: bold;
 }
+
+#contacts-list .actions span
+{
+    display: none;
+}
+#contacts-list .actions a{
+    text-decoration: none;
+}
+#contacts-list tr:hover .actions span{
+    display: inline;
+}
