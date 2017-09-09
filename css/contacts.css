@@ -3,7 +3,11 @@
 }
 
 #contact-form input {
+<<<<<<< HEAD
     width: 30%;
+=======
+    width: 40%;
+>>>>>>> e425a86e58ca11eef0dcd08a3b883fea8285cecc
 }
 
 #contact-form button {

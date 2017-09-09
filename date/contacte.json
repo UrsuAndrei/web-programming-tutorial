@@ -1,1 +1,13 @@
+<<<<<<< HEAD
 [{"id":1,"firstName":"Ursu","lastName":"Andrei1","phone":"0312932121"},{"id":3,"firstName":"EE","lastName":"CC","phone":"12121"},{"id":5,"firstName":"Alexandra","lastName":"B","phone":"321"}]
+=======
+[
+  {"id":1, "lastName":"Ursu", "firstName":"Andrei", "phone":"0700000000"},
+  {"id":2, "lastName":"Ursu", "firstName":"Andrei", "phone":"0700000000"},
+  {"id":3, "lastName":"Ursu", "firstName":"Andrei", "phone":"0700000000"},
+  {"id":4, "lastName":"a", "firstName":"b", "phone":"0221321"},
+  {"id":5, "lastName":"a", "firstName":"b", "phone":"0221321"},
+  {"id":6, "lastName":"a", "firstName":"b", "phone":"0221992321321"},
+  {"id":7, "lastName":"c", "firstName":"d", "phone":"07874321"}
+]
+>>>>>>> e425a86e58ca11eef0dcd08a3b883fea8285cecc
