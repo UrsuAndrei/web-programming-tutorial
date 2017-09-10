@@ -1,9 +1,7 @@
 <?php
 include "connect-db.php";
-
 $sql = "SELECT * FROM agenda";
 $result = $conn->query($sql);
-
 $contacte = array();
 if ($result->num_rows > 0) {
     while($row = $result->fetch_assoc()) {
@@ -16,7 +14,5 @@ if ($result->num_rows > 0) {
     }
 }
 $conn->close();
-
 echo json_encode($contacte, true);
-
 ?>

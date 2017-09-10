@@ -8,17 +8,10 @@ contact added (<div id="contact-id"></div>)
 
 <script>
     var parameters = location.search.substr(1);
-
     var paramArray = parameters.split('&');
-
     console.info(paramArray);
-
-
-
     document.getElementById('contact-id').innerHTML = paramArray.join('; <br>') + ';';
-//    document.getElementById('contact-id').innerHTML = parameters.replace(/&/ig, '; <br>') + ';';
-
-
+    //    document.getElementById('contact-id').innerHTML = parameters.replace(/&/ig, '; <br>') + ';';
 </script>
 </body>
 </html>
